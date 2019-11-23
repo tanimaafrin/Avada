@@ -1,0 +1,154 @@
+body{}
+	p{
+		color:#999999;
+		font-size:15px;
+	}
+	h1{
+		font-size:40px;
+	}
+	h2{
+		font-size:28px;
+	}
+	h3{
+		font-size:20px;
+	}
+	h4{
+		font-size:16px;
+	}
+.menu ul{
+	list-style:none;
+	padding: 10px;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a{
+
+	padding:15px 10px 15px 10px;
+	text-decoration:none;
+	color:#888888;
+}
+.menu ul li a:hover{
+	color:#ef476f;
+}
+.traffic-btn{
+	display:inline-block;
+	/* padding:20px; */
+	background:#ef476f;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	right:0;
+}
+.hero-area img{
+	width:100%;
+	position:absolute;
+	right:0;
+}
+.hero-area input[type="text"]{
+	width:320px;
+	border:1px solid #efefef;
+	padding:10px;
+}
+.traffic-hero-btn{
+		display:inline-block;
+	/* padding:20px; */
+	background:#ef476f;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-left:10px;
+	transition:.2s;
+}
+.traffic-hero-btn:hover{
+	background:black;
+	color:#fff;
+	text-decoration:none;
+}
+.service-item{
+	padding:20px;
+}
+.service-item {
+    padding: 20px 10px 20px 10px;
+    border: 1px solid #f7f1f1;
+}
+.service-area{
+	min-height:320px;
+}
+.service-area a{
+	display:inline-block;
+	margin-bottom:20px;
+}
+.service-area{
+	margin-top:150px;
+	margin-bottom:100px;
+}
+.fa-rocket{
+	font-size:30px;
+}
+.service-item:hover{
+	border-color:#ef476f;
+}
+.service-item:hover>.fa{
+	color:#ef476f;
+}
+.service-item:hover>h3{
+	color:#ef476f;
+}
+.service-item:hover>a{
+	color:#ef476f;
+}
+.owl-carousel-wrapper.item {
+    padding: 25px;
+    text-align: center;
+    background:url(assets/img/carousel-bg-1.png);
+    color: #fff;
+	margin-top:20px;
+	min-height:320px;
+	background-size:cover;
+}
+.fa-long-arrow-right{
+	background:black;
+}
+.owl-carousel-wrapper a {
+    display: inline-block;
+    background: #fff;
+    border-radius: 50%;
+    padding: 20px 25px 20px 25px;
+    margin-top: 18px;
+}
+.owl-carousel-wrapper h3{
+	margin-top:30px;
+	opacity:0.1;
+}
+.owl-carousel-wrapper p{
+	color:#fff;
+	opacity:0.1;
+}
+.owl-carousel-wrapper a{
+	opacity:0.1;
+	
+}
+.owl-carousel-wrapper h4{
+	opacity:0.1;
+}
+.owl-carousel-wrapper:hover{
+	background:#ef476f;
+}
+.owl-carousel-wrapper:hover>a{
+	background:#ef476f;
+	opacity:1;
+}
+.owl-carousel-wrapper:hover>p{
+	background:#ef476f;
+	opacity:1;
+}
+.owl-carousel-wrapper:hover>h4{
+	background:#ef476f;
+	opacity:1;
+}
+.owl-carousel-wrapper:hover>h3{
+	background:#ef476f;
+	opacity:1;
+}
